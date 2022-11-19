@@ -1,4 +1,5 @@
 import "./App.css";
+import BasicForms from "./components/forms/BasicForms";
 import ShortCircuit from "./components/ShortCircuit";
 // import Hooks from "./components/Hooks";
 // import UsestateArray from "./components/UsestateArray";
@@ -10,7 +11,8 @@ function App() {
       {/* <Hooks /> */}
       {/* <UsestateArray /> */}
       {/* <UseStateObject /> */}
-      <ShortCircuit />
+      {/* <ShortCircuit /> */}
+      <BasicForms />
     </>
   );
 }
