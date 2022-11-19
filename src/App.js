@@ -1,10 +1,12 @@
 import "./App.css";
-import Hooks from "./components/Hooks";
+// import Hooks from "./components/Hooks";
+import UsestateArray from "./components/UsestateArray";
 
 function App() {
   return (
     <>
-      <Hooks />
+      {/* <Hooks /> */}
+      <UsestateArray />
     </>
   );
 }
