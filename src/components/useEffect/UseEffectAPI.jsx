@@ -9,11 +9,10 @@ const UseEffectAPI = () => {
 
   const getUsers = async () => {
     try {
-      setLoading(false);
-
       const response = await fetch(
         "https://jsonplaceholder.typicode.com/albums/1/photos"
       );
+      setLoading(false);
       setUsers(await response.json());
     } catch (error) {
       console.log("my error is " + error);
