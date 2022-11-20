@@ -1,7 +1,7 @@
 import "./App.css";
-import ContextA from "./components/useContext/ContextA";
+// import ContextA from "./components/useContext/ContextA";
 // import Uncontrolled from "./components/forms/Uncontrolled";
-import UseReducer from "./components/useReducer/UseReducer";
+// import UseReducer from "./components/useReducer/UseReducer";
 // import BasicForms from "./components/forms/BasicForms";
 // import ShortCircuit from "./components/ShortCircuit";
 // import UseEffect1 from "./components/useEffect/UseEffect1";
@@ -10,6 +10,7 @@ import UseReducer from "./components/useReducer/UseReducer";
 // import Hooks from "./components/Hooks";
 // import UsestateArray from "./components/UsestateArray";
 // import UseStateObject from "./components/UseStateObject";
+import Test1 from "./components/useEffect/github/Test1";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <UseEffectAPI /> */}
       {/* <Uncontrolled /> */}
       {/* <UseReducer /> */}
-      <ContextA />
+      {/* <ContextA /> */}
+      <Test1 />
     </>
   );
 }

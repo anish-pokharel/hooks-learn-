@@ -1,10 +1,10 @@
 import React from "react";
 import ContextC from "./ContextC";
 
-const ContextB = ({ name }) => {
+const ContextB = () => {
   return (
     <>
-      <ContextC name={name} />
+      <ContextC />
     </>
   );
 };
