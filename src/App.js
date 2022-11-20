@@ -1,4 +1,5 @@
 import "./App.css";
+import ContextA from "./components/useContext/ContextA";
 // import Uncontrolled from "./components/forms/Uncontrolled";
 import UseReducer from "./components/useReducer/UseReducer";
 // import BasicForms from "./components/forms/BasicForms";
@@ -22,7 +23,8 @@ function App() {
       {/* <UseEffect2 /> */}
       {/* <UseEffectAPI /> */}
       {/* <Uncontrolled /> */}
-      <UseReducer />
+      {/* <UseReducer /> */}
+      <ContextA />
     </>
   );
 }
