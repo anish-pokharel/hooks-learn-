@@ -1,5 +1,6 @@
 import "./App.css";
-import Uncontrolled from "./components/forms/Uncontrolled";
+// import Uncontrolled from "./components/forms/Uncontrolled";
+import UseReducer from "./components/useReducer/UseReducer";
 // import BasicForms from "./components/forms/BasicForms";
 // import ShortCircuit from "./components/ShortCircuit";
 // import UseEffect1 from "./components/useEffect/UseEffect1";
@@ -20,7 +21,8 @@ function App() {
       {/* <UseEffect1 /> */}
       {/* <UseEffect2 /> */}
       {/* <UseEffectAPI /> */}
-      <Uncontrolled />
+      {/* <Uncontrolled /> */}
+      <UseReducer />
     </>
   );
 }
