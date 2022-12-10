@@ -1,4 +1,5 @@
 import "./App.css";
+import Apicall from "./components/Apicall";
 // import ContextA from "./components/useContext/ContextA";
 // import Uncontrolled from "./components/forms/Uncontrolled";
 // import UseReducer from "./components/useReducer/UseReducer";
@@ -26,7 +27,8 @@ function App() {
       {/* <Uncontrolled /> */}
       {/* <UseReducer /> */}
       {/* <ContextA /> */}
-      <Test1 />
+      {/* <Test1 /> */}
+      <Apicall />
     </>
   );
 }
